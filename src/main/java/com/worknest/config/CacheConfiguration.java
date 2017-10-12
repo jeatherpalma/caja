@@ -40,6 +40,9 @@ public class CacheConfiguration {
     @Bean
     public JCacheManagerCustomizer cacheManagerCustomizer() {
         return cm -> {
+            cm.createCache(com.worknest.domain.Cajeros.class.getName(), jcacheConfiguration);
+            cm.createCache(com.worknest.domain.Cajas.class.getName(), jcacheConfiguration);
+            cm.createCache(com.worknest.domain.HistorialAcciones.class.getName(), jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }
