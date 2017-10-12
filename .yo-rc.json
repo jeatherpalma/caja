@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.worknest",
+      "nativeLanguage": "es"
+    },
+    "jhipsterVersion": "4.8.2",
+    "baseName": "caja",
+    "packageName": "com.worknest",
+    "packageFolder": "com/worknest",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mssql",
+    "prodDatabaseType": "mssql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "bd5649e4062b9d9859c69cb16606713ec69d0fc2",
+    "enableTranslation": true,
+    "applicationType": "microservice",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "skipClient": true,
+    "skipUserManagement": true,
+    "nativeLanguage": "es",
+    "languages": [
+      "es",
+      "en"
+    ],
+    "clientPackageManager": "yarn"
+  }
+}
